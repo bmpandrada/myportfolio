@@ -1,0 +1,247 @@
+.about-container{
+    background-image: url(/logos/back.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+#avatar {
+    width: 20%;
+    z-index: 99;
+   
+}
+.about-container-logos{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+   border: 1px solid red;
+   height: 100vh;
+   
+    
+}
+
+
+#logo_ps, #logo_css, #logo_js, #logo_html, #logo_laravel, #logo_mysql{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+   
+    
+}
+.ps{
+margin-bottom: 0em;
+align-items: center;
+display: flex;
+width: 20px;
+
+
+}
+.ps.sticky{
+    margin-bottom: 25em;
+    margin-left: 14em;
+   transition:ease-in-out 2s;
+   width: 120px;
+    
+}
+
+.la{
+margin-bottom: 0em;
+align-items: center;
+display: flex;
+width: 20px;
+
+
+}
+.la.sticky{
+    margin-bottom: 30em;
+    margin-right: 25em;
+   transition:ease-in-out 1.8s;
+   width: 100px;
+    
+}
+
+.sq{
+margin-bottom: 0em;
+align-items: center;
+display: flex;
+width: 20px;
+
+
+}
+.sq.sticky{
+    margin-bottom: 30em;
+    margin-right: 5em;
+   transition:ease-in-out 1.5s;
+   width: 100px;
+    
+}
+
+.ht{
+margin-bottom: 0em;
+align-items: center;
+display: flex;
+width: 20px;
+transform: rotate(5deg);
+
+
+}
+.ht.sticky{
+    margin-bottom: 22em;
+    margin-right: 32em;
+   transition:ease-in-out 1s;
+   transform: rotate(-20deg);
+   width: 100px;
+    
+}
+.cs{
+margin-bottom: 0em;
+align-items: center;
+display: flex;
+width: 20px;
+
+
+
+
+}
+.cs.sticky{
+    margin-bottom: 16em;
+    margin-left: 22em;
+   transition:ease-in-out 1.5s;
+   transform: rotate(20deg);
+   width: 100px;
+   
+    
+}
+
+@media (max-width: 1920px) {
+ 
+    
+  }
+  
+  @media (max-width: 1104px) {
+  
+  }
+  
+  @media (max-width: 991px) {
+  
+  
+  }
+  
+  @media (max-width: 947px) {
+   
+  }
+  
+    
+  
+  
+  @media (max-width: 690px) {
+    .about-container{
+        height: 100vh;
+    }
+    .about-container-logos{
+      
+       border: 1px solid red;
+    }
+   .about-container-logos .log{
+        width: 80px;
+        border: 1px solid red;
+    }
+    #avatar {
+        width: 100%;
+        z-index: 99;
+       
+    }
+    .ps{
+        margin-bottom: 0em;
+        align-items: center;
+        display: flex;
+        width: 20px;
+        
+        
+        }
+        .ps.sticky{
+         margin-bottom: 25em;
+        transition:ease-in-out 2s;
+        width: 120px;
+            
+        }
+        
+        .la{
+        margin-bottom: 0em;
+        align-items: center;
+        display: flex;
+        width: 20px;
+        
+        
+        }
+        .la.sticky{
+        margin-bottom: 25em;
+        margin-left: 5em;
+        transition:ease-in-out 1.8s;
+        width: 100px;
+        transform: rotate(-20deg);
+            
+        }
+        
+        .sq{
+        margin-bottom: 0em;
+        display: flex;
+        width: 20px;
+        
+        
+        }
+        .sq.sticky{
+        margin-bottom: 30em;
+        transition:ease-in-out 1.5s;
+        width: 100px; 
+        }
+        
+        .ht{
+        margin-bottom: 0em;
+        align-items: center;
+        display: flex;
+        width: 20px;
+        margin-left: 10em;
+        }
+        .ht.sticky{
+         margin-bottom: 15em;
+        transition:ease-in-out 1s;
+        width: 100px;
+            
+        }
+        .cs{
+        margin-bottom: 0em;
+        align-items: center;
+        display: flex;
+        width: 20px;
+        opacity: 0;
+        
+        
+        
+        }
+        .cs.sticky{
+        margin-bottom: 16em;
+        left: 0;
+        transition:ease-in-out 1.5s;
+        width: 100px;
+        opacity: 1;
+        }
+
+
+  }
+  
+  @media (max-width: 500px) {
+   
+  }
+  
+  
+  @media (max-width: 375px) {
+    
+  }
+  
